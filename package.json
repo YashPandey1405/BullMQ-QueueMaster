@@ -1,0 +1,22 @@
+{
+  "name": "queue-system",
+  "version": "1.0.0",
+  "description": "An Basic Project To Learn About Micro-Service Queues Like BullMQ With Redis",
+  "license": "ISC",
+  "author": "Yash Pandey",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bullmq": "^5.56.2",
+    "express": "^5.1.0",
+    "ioredis": "^5.6.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
